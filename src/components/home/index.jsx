@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Jumbotron, Button } from "reactstrap";
 import { Link } from "react-router-dom";
+import NavBar from "../navbar/navbar";
 
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
+        <NavBar />
         <div className="container home">
           <Jumbotron>
             <h1 className="display-3">React-Redux</h1>
