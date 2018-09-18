@@ -38,6 +38,10 @@ class NavBar extends Component {
             <NavItem>
               <Link to="/about">About</Link>
             </NavItem>
+            {" | "}
+            <NavItem>
+              <Link to="/courses">Courses</Link>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
